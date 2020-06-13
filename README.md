@@ -17,5 +17,5 @@
 
 ## 引导方法：
 1. 把整个仓库克隆到临时目录，把仓库目录里的EFI和com.apple.recovery.boot两个文件夹拷贝到OpenCore引导分区。
-2. 根据[说明](com.apple.recovery.boot)下载macOS Recovery到com.apple.recovery.boot目录下，并且在此目录
+2. 根据[说明](https://github.com/cattyhouse/oc-guide/blob/master/oc-dmg-install.md)下载macOS Recovery到com.apple.recovery.boot目录下，并且在此目录
 下面新建一个隐藏文件 .contentDetails，内容可以随便写, 比如 Mojave Boot From Recovery, 这个名字会出现在OpenCore的启动菜单上.
